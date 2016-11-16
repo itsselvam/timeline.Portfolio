@@ -34,7 +34,7 @@ main{width:90%;background:#f4f4f4; margin:20px auto; box-shadow:0 2px 4px 0 rgba
 
 header{padding:6em 4em; background:url(../images/bgimg.jpg) ;background-size:cover;background-repeat: no-repeat;}
 header > section { text-align: left; }
- header > section > aside > span{background:url(../images/profilepic.jpg); background-size:cover;width:12em;height:12em;border-radius:50%;display:inline-block;} 
+header > section > aside > span{background:url(../images/profilepic.jpg); background-size:cover;width:12em;height:12em;border-radius:50%;display:inline-block;} 
 header > section > aside{/* margin:0 0 0 14em; */}
 header > section > aside > h1{ color:red; float: right; display:inline; width:70%; font-family: 'Comfortaa', cursive; font-size: 3.1em; color:#FFF; margin:.2em 0 0 0; background: rgba(0, 0, 0, 0.2); padding:.5em}
  header > section > aside > h1 > span{ font-size:.35em; display:block;} 
@@ -56,6 +56,10 @@ footer{height:12em;background:#333; color:#FFF; padding:.5em;}
 
 /* Media queries-------------------------------------------------------------------------------*/
 @media screen and (max-width: 480px) {
+	header{ padding: 4em 2em}
+	header > section > aside{ margin: 0; }
+	 header > section > aside > span{display:none} 
+	 header > section > aside > h1{ font-size: 1em; }
 }
 /* Print styles-------------------------------------------------------------------------------*/
 @media print {
