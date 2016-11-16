@@ -43,7 +43,7 @@ header > section > div{background:url(../images/profilepic.jpg); background-size
 .timelineCont ul > li:last-child:before{visibility: hidden; display:none;}
 .timelineCont ul > li:last-child{margin:.7em 4em 0em .7em ;background:transparent; padding:1em 1em 0 1em;border: none;}
 
-footer{height: 90px;background: #f4f4f4; border-top: 1px solid green;}
+footer{height:12em;background:#333; border-top: 4px solid #f4f4f4;}
 
 /* Media queries-------------------------------------------------------------------------------*/
 @media screen and (max-width: 480px) {
