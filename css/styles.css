@@ -35,7 +35,7 @@ header > section > div > div{background:#CCC;width:10em;height:10em;border-radiu
 
 .timelineCont ul {border-left: 5px solid #dfe5e6; margin: 0 0 0 4em; /* 	padding:.7em 0 */}
 .timelineCont ul li{margin:.8em 4em .8em .8em ; padding: 1em; background:#FFF; border-radius: 5px;}
-.timelineCont ul li:before{content:'';height:15px;width:15px;border-radius:50%;background:#d4d4d4;border:2px solid #FFF;position:absolute;margin-left: -5.55em;box-shadow: 0 0 3px #fff;}
+.timelineCont ul li:before{content:'';height:15px;width:15px;border-radius:50%;background:#d4d4d4;border:2px solid #FFF;position:absolute;margin-left: -5.65em;box-shadow: 0 0 3px #fff;}
 .timelineCont ul li:hover{}
 .timelineCont ul li:hover:before{background: #4264d2;}
 
