@@ -39,11 +39,11 @@ header > section > div{background:url(../images/profilepic.jpg); background-size
 .timelineCont ul li:hover{}
 .timelineCont ul li:hover:before{background: #4264d2;}
 
-/*.timelineCont ul > li:first-child{margin:0em 4em .7em .7em ;background: #FFF;}
-.timelineCont ul li:first-child:hover:before{background: #d4d4d4;}
+.timelineCont ul > li:first-child:before{visibility: hidden; display:none;}
+.timelineCont ul > li:first-child{margin:0em 4em .7em .7em ;background:transparent; padding:0 1em 1em 1em;}
 
-.timelineCont ul > li:last-child{margin:.7em 4em 0em .7em ;background: #FFF; }
-.timelineCont ul li:last-child:hover:before{background: #d4d4d4;} */
+.timelineCont ul > li:last-child:before{visibility: hidden; display:none;}
+.timelineCont ul > li:last-child{margin:.7em 4em 0em .7em ;background:transparent; padding:1em 1em 0 1em;}
 
 footer{height: 90px;background: #f4f4f4; border-top: 1px solid green;}
 /* footer:after{content:'';height:15px;width:15px;position:absolute; background:#e0e0e0;transform: rotate(45deg);left:92px;bottom:-340px;} */
