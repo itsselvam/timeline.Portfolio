@@ -16,4 +16,6 @@ You can update the related information and create a PDF version by simply printi
 
 ##To create a print version 
 ```
-* Simply ()
+* Simply click print option in your browser or (ctrl+p)
+OR
+* Use any of the online web to print(pdf) converter. For example https://convertio.co/
