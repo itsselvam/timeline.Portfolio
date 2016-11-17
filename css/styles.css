@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
 
 /* USED FONT FAMILY  
-font-family: 'Comfortaa', cursive;
+font-family: 'Merriweather', serif;
 font-family: 'Open Sans', sans-serif;
  */
 
@@ -35,10 +35,10 @@ main{width:90%;background:#f4f4f4; margin:20px auto; box-shadow:0 2px 4px 0 rgba
 header{padding:6em 4em; background:url(../images/bgimg.jpg) ;background-size:cover;background-repeat: no-repeat;}
 header > section { text-align: left; }
 header > section > aside > span{background:url(../images/profilepic.jpg); background-size:cover;width:12em;height:12em;border-radius:50%;display:inline-block;} 
-header > section > aside{/* margin:0 0 0 14em; */}
-header > section > aside > h1{ float: right; display:inline; width:80%; font-family: 'Merriweather', serif; font-size: 3.1em; color:#FFF; background: rgba(0, 0, 0, 0.3); padding:.5em; margin:.4em 0 0 0; }
+header > section > aside{}
+header > section > aside > h1{float:right;display:inline;width:75%;font-family:'Merriweather',serif;font-size:3.1em;color:#FFF;background:rgba(0, 0, 0, 0.3);padding:.5em; margin:.4em 0 0 0; }
  header > section > aside > h1 > span{ font-size:.35em; display:block; font-family: 'Open Sans', sans-serif;} 
-/* header > section > div > div{background:#CCC;width:10em;height:10em;border-radius:50%;} */
+
 
 .timelineCont ul {border-left: 5px solid #dfe5e6; margin: 0 0 0 8em; }
 .timelineCont ul li{margin:.8em 4em .8em .8em;padding:1em;background:#FFF;border-radius:5px; border: 1px solid #FFF;}
@@ -46,39 +46,50 @@ header > section > aside > h1{ float: right; display:inline; width:80%; font-fam
 .timelineCont ul li:hover{}
 .timelineCont ul li:hover:before{background: #4264d2;}
 
-.timelineCont ul > li:first-child:before{visibility: hidden; display:none; }
-.timelineCont ul > li:first-child{margin:0em 4em .7em .7em ;background:transparent; padding:0 1em 1em 1em;border: none;}
+.timelineCont ul li:first-child:before{visibility: hidden; display:none; }
+.timelineCont ul li:first-child{margin:0em 4em .7em .7em ;background:transparent; padding:0 1em 1em 1em;border: none;}
 
-.timelineCont ul > li:last-child:before{visibility: hidden; display:none;}
-.timelineCont ul > li:last-child{margin:.7em 4em 0em .7em ;background:transparent; padding:1em 1em 0 1em;border: none;}
+.timelineCont ul li:last-child:before{visibility: hidden; display:none;}
+.timelineCont ul li:last-child{margin:.7em 4em 0em .7em ;background:transparent; padding:1em 1em 0 1em;border: none;}
 
 .timelineCont ul li span{font-weight:bold; margin-left:-10em; position: absolute;}
-.timelineCont ul li:hover span{color:#4264d2;/* text-shadow: 3px 2px #fff; */}
+.timelineCont ul li:hover span{color:#4264d2;}
+
+.timelineCont ul li ul { clear:both; margin: 1em 0 0; padding: 0;border: none;}
+.timelineCont ul li ul li, .timelineCont ul li ul li:first-child, .timelineCont ul li ul li:last-child{list-style:disc;margin: .1em 0 .1em 3em; padding: 0;}
+.timelineCont ul li ul li:before{clear:both; margin: 0; padding: 0; display:none}
 
 footer{height:12em;background:#333; color:#FFF; padding:.5em; margin: 0 0 4em 0;}
 
 /* Media queries-------------------------------------------------------------------------------*/
-@media screen and (min-width: 1024px) {
-	header > section > aside > h1{width: 75%;float:right;}
+@media screen and (min-width: 1280px) {
+	header > section > aside > h1{ width: 82%;}
+}
+
+@media screen and (max-width: 1024px) {
+	 header > section > aside > h1{ width: 75%; margin: 0;} 
 }
 
 @media screen and (max-width: 960px) {
 	main{margin:0 auto; width:100%}
-	header > section > aside > h1{width: 71%; font-size:2.8em;background: rgba(0, 0, 0, 0.1);}
+	header > section > aside > h1{font-size:2.8em;margin: 0; width: 70%;}
 	header > section > aside > h1 > span{font-size:.5em;}
 	footer{margin: 0}
 }
 
 @media screen and (max-width: 768px) {
 	header{padding: 4em 2em} 
-	header > section > aside > h1{font-size: 2.3em;float:right; width: 68%; margin:.8em 0 0 0}
-	
-	
+	header > section > aside > h1{font-size: 2.3em; width: 71%;}	
 }
+
+@media screen and (max-width: 568px) {
+	header > section > aside > h1{font-size: 2.1em;width: 65%; margin: .4em 0 0 0;}
+}
+
 @media screen and (max-width: 480px) {
 	header > section > aside{margin: 0;}
 	header > section > aside > span{display:none} 
-	header > section > aside > h1{font-size: 2.3em; float: none; clear: both; display: block; width: auto; margin: 0;}
+	header > section > aside > h1{float: none; clear: both; display: block; width: auto; margin: 0;}
 	
 	.timelineCont ul{padding-left:.3em;margin: 0 0 0 1.5em;}
 	.timelineCont ul li{ margin:1.4em 1em 1.4em .8em; padding:.9em}
@@ -86,8 +97,8 @@ footer{height:12em;background:#333; color:#FFF; padding:.5em; margin: 0 0 4em 0;
 	.timelineCont ul li:before{ margin-left:-2.8em ; }	
 }
 
-@media screen and (max-width: 320px) {	
-	
+@media screen and (max-width: 320px) {
+
 }
 
 /* Print styles-------------------------------------------------------------------------------*/
