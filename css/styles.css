@@ -36,13 +36,13 @@ header{padding:6em 4em; background:url(../images/bgimg.jpg) ;background-size:cov
 header > section { text-align: left; }
 header > section > aside > span{background:url(../images/profilepic.jpg); background-size:cover;width:12em;height:12em;border-radius:50%;display:inline-block;} 
 header > section > aside{/* margin:0 0 0 14em; */}
-header > section > aside > h1{ color:red; float: right; display:inline; width:70%; font-family: 'Merriweather', serif; font-size: 3.1em; color:#FFF; margin:.2em 0 0 0; background: rgba(0, 0, 0, 0.2); padding:.5em}
+header > section > aside > h1{ color:red; float: right; display:inline; width:70%; font-family: 'Merriweather', serif; font-size: 3.1em; color:#FFF; margin:.2em 0 0 0; background: rgba(0, 0, 0, 0.3); padding:.5em}
  header > section > aside > h1 > span{ font-size:.35em; display:block; font-family: 'Open Sans', sans-serif;} 
 /* header > section > div > div{background:#CCC;width:10em;height:10em;border-radius:50%;} */
 
 .timelineCont ul {border-left: 5px solid #dfe5e6; margin: 0 0 0 4em; }
 .timelineCont ul li{margin:.8em 4em .8em .8em;padding:1em;background:#FFF;border-radius:5px; border: 1px solid #FFF;}
-.timelineCont ul li:before{content:'';height:15px;width:15px;border-radius:50%;background:#d4d4d4;border:2px solid #FFF;position:absolute;margin-left: -5.7em;box-shadow: 0 0 3px #fff;}
+.timelineCont ul li:before{content:'';height:15px;width:15px;border-radius:50%;background:#d4d4d4;border:2px solid #FFF;position:absolute;margin-left: -5.75em;box-shadow: 0 0 3px #fff;}
 .timelineCont ul li:hover{}
 .timelineCont ul li:hover:before{background: #4264d2;}
 
@@ -52,7 +52,7 @@ header > section > aside > h1{ color:red; float: right; display:inline; width:70
 .timelineCont ul > li:last-child:before{visibility: hidden; display:none;}
 .timelineCont ul > li:last-child{margin:.7em 4em 0em .7em ;background:transparent; padding:1em 1em 0 1em;border: none;}
 
-footer{height:12em;background:#333; color:#FFF; padding:.5em;}
+footer{height:12em;background:#333; color:#FFF; padding:.5em; margin: 0 0 4em 0;}
 
 /* Media queries-------------------------------------------------------------------------------*/
 @media screen and (max-width: 480px) {
@@ -61,6 +61,13 @@ footer{height:12em;background:#333; color:#FFF; padding:.5em;}
 	 header > section > aside > span{display:none} 
 	 header > section > aside > h1{ font-size: 1em; }
 }
+/* Large screen */
+@media screen and (min-width: 960px) {
+	header > section > aside > h1{
+		width:81%; margin:.6em 0 0 0;
+	}
+}
+
 /* Print styles-------------------------------------------------------------------------------*/
 @media print {
 }
