@@ -56,16 +56,14 @@ footer{height:12em;background:#333; color:#FFF; padding:.5em; margin: 0 0 4em 0;
 
 /* Media queries-------------------------------------------------------------------------------*/
 @media screen and (max-width: 480px) {
-	header{ padding: 4em 2em}
-	header > section > aside{ margin: 0; }
-	 header > section > aside > span{display:none} 
-	 header > section > aside > h1{ font-size: 1em; }
+	header{padding: 4em 2em}
+	header > section > aside{margin: 0;}
+	header > section > aside > span{display:none} 
+	header > section > aside > h1{font-size: 1em;}
 }
 /* Large screen */
 @media screen and (min-width: 960px) {
-	header > section > aside > h1{
-		width:81%; margin:.6em 0 0 0;
-	}
+	header > section > aside > h1{width:81%; margin:.6em 0 0 0;}
 }
 
 /* Print styles-------------------------------------------------------------------------------*/
