@@ -59,7 +59,7 @@ footer{height:12em;background:#333; color:#FFF; padding:.5em; margin: 0 0 4em 0;
 
 /* Media queries-------------------------------------------------------------------------------*/
 @media screen and (min-width: 1024px) {
-	header > section > aside > h1{width: 80%;float:right;}
+	header > section > aside > h1{width: 75%;float:right;}
 }
 
 @media screen and (max-width: 960px) {
