@@ -1,5 +1,5 @@
 @import url("reset.css");
-@import url('https://fonts.googleapis.com/css?family=Comfortaa|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Open+Sans');
 
 /* USED FONT FAMILY  
 font-family: 'Comfortaa', cursive;
@@ -36,8 +36,8 @@ header{padding:6em 4em; background:url(../images/bgimg.jpg) ;background-size:cov
 header > section { text-align: left; }
 header > section > aside > span{background:url(../images/profilepic.jpg); background-size:cover;width:12em;height:12em;border-radius:50%;display:inline-block;} 
 header > section > aside{/* margin:0 0 0 14em; */}
-header > section > aside > h1{ color:red; float: right; display:inline; width:70%; font-family: 'Comfortaa', cursive; font-size: 3.1em; color:#FFF; margin:.2em 0 0 0; background: rgba(0, 0, 0, 0.2); padding:.5em}
- header > section > aside > h1 > span{ font-size:.35em; display:block;} 
+header > section > aside > h1{ color:red; float: right; display:inline; width:70%; font-family: 'Merriweather', serif; font-size: 3.1em; color:#FFF; margin:.2em 0 0 0; background: rgba(0, 0, 0, 0.2); padding:.5em}
+ header > section > aside > h1 > span{ font-size:.35em; display:block; font-family: 'Open Sans', sans-serif;} 
 /* header > section > div > div{background:#CCC;width:10em;height:10em;border-radius:50%;} */
 
 .timelineCont ul {border-left: 5px solid #dfe5e6; margin: 0 0 0 4em; }
