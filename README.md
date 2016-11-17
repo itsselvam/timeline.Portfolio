@@ -6,4 +6,7 @@ https://itsselvam.github.io/timeline.Portfolio/
 
 
 ##How to use?
+
+'''
 You can update the related information and create a PDF version by simply printing (ctrl+p) or you print  
+'''
