@@ -53,7 +53,7 @@ header > section > aside > h1 > section{margin:.8em 0 0;font-size:.35em;font-fam
 .timelineCont ul li:last-child:before{visibility: hidden; display:none;}
 .timelineCont ul li:last-child{margin:.7em 4em 0em .7em ;background:transparent; padding:1em 1em 0 1em;border: none;}
 
-.timelineCont ul li span{font-weight:bold;margin-left:-10em; position: absolute;}
+.timelineCont ul li span{font-weight:bold;margin-left:-12em; position: absolute; width:65px; text-align: center;}
 .timelineCont ul li:hover span{color:#4264d2;}
 
 .timelineCont ul li ul {clear:both;margin:1em 0 0;padding:0;border:none;}
@@ -73,7 +73,7 @@ footer{height:12em;background:#333;color:#FFF;padding:.5em;margin:0 0 4em 0;}
 
 @media screen and (max-width: 960px) {
 	main{margin:0 auto;width:100%}
-	header > section > aside > h1{font-size:2.8em;width: 70%;}
+	header > section > aside > h1{font-size:2.6em;width: 70%;}
 	header > section > aside > h1 > span{font-size:.5em;}
 	footer{margin: 0}
 }
@@ -109,10 +109,11 @@ footer{height:12em;background:#333;color:#FFF;padding:.5em;margin:0 0 4em 0;}
 	body{ margin: 0; padding: 0; }
 	a:after {content: " [" attr(href) "] ";}
 	main{width:100%; margin:0; box-shadow:none}
-	header{ margin:0;padding:0; color:#000; opacity:1; border-bottom: 5px solid #dfe5e6; background: none;}
-	header > section > aside > span{ display:none; }
-	header > section > aside > h1{float: none; clear: both; display: block; width: auto; margin: 0; background: none; color: #333;}
+	header{margin:0;padding:0;color:#000;opacity:1;border-bottom:5px solid #dfe5e6;background: none;}
+	header > section > aside > span{display:none;}
+	header > section > aside > h1{float:none;clear:both;display:block;width:auto;margin:0;background:none;color:#333;}
 	.timelineCont ul li {page-break-inside: avoid;}
-
-	footer{border:none; border-top: 5px solid #dfe5e6; background: none; color: #333; margin: 0;}
+	footer{border:none;border-top:5px solid #dfe5e6;background:none;color:#333;margin:0;}
+	.timelineCont ul li:hover:before{background:#d4d4d4;}
+	.timelineCont ul li:hover span{color:#333;}
 }
