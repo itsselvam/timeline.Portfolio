@@ -37,7 +37,7 @@ header > section {}
 header > section > aside > span{background:url(../images/profilepic.jpg);background-size:cover;width:12em;height:12em;border-radius:50%;display:inline-block;} 
 header > section > aside{}
 header > section > aside > h1{float:right;display:inline;width:75%;font-family:'Merriweather',serif;font-size:3.1em;color:#FFF;background:rgba(0, 0, 0, 0.3);padding:.5em;text-shadow:1px 0px #000;}
-header > section > aside > h1 > span{font-size:.35em;display:block;font-family:'Open Sans', sans-serif;} 
+header > section > aside > h1 > span{font-size:.35em;display:block;font-family:'Open Sans', sans-serif;text-transform:uppercase;}
 header > section > aside > h1 > section{margin:.8em 0 0;font-size:.35em;font-family:'Open Sans', sans-serif;}
 
 
@@ -104,4 +104,15 @@ footer{height:12em;background:#333;color:#FFF;padding:.5em;margin:0 0 4em 0;}
 
 /* Print styles-------------------------------------------------------------------------------*/
 @media print {
+	@page{margin:0 .25cm .25cm;}
+	@page :first{margin:.5cm .25cm .25cm;}
+	body{ margin: 0; padding: 0; }
+	a:after {content: " [" attr(href) "] ";}
+	main{width:100%; margin:0; box-shadow:none}
+	header{ margin:0;padding:0; color:#000; opacity:1; border-bottom: 5px solid #dfe5e6; background: none;}
+	header > section > aside > span{ display:none; }
+	header > section > aside > h1{float: none; clear: both; display: block; width: auto; margin: 0; background: none; color: #333;}
+	.timelineCont ul li {page-break-inside: avoid;}
+
+	footer{border:none; border-top: 5px solid #dfe5e6; background: none; color: #333; margin: 0;}
 }
