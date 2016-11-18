@@ -93,7 +93,7 @@ footer{height:12em;background:#333; color:#FFF; padding:.5em; margin: 0 0 4em 0;
 	
 	.timelineCont ul{padding-left:.3em;margin: 0 0 0 1.5em;}
 	.timelineCont ul li{ margin:1.4em 1em 1.4em .8em; padding:.9em}
-	.timelineCont ul li span{ margin-left:0em; display: block; position: relative; }
+	.timelineCont ul li span{ margin-left:0em; display: block; position: relative; padding-bottom: .4em; font-size: 1.2em; }
 	.timelineCont ul li:before{ margin-left:-2.8em ; }	
 }
 
