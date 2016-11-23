@@ -61,7 +61,7 @@ header > section > aside > h1 > section{margin:.8em 0 0;font-size:.35em;font-fam
 .timelineCont ul li ul li, .timelineCont ul li ul li:first-child, .timelineCont ul li ul li:last-child{list-style:disc;margin: .1em 0 .1em 3em; padding: 0;}
 .timelineCont ul li ul li:before{clear:both;margin:0;padding:0;display:none;}
 
-footer{height:12em;background:#333;color:#FFF;padding:.5em;margin:0 0 4em 0; text-align: left;}
+footer{height:12em;background:#333;color:#FFF;padding:.5em;margin:0 0 4em 0;text-align:center;}
 
 /* Media queries-------------------------------------------------------------------------------*/
 @media screen and (min-width: 1280px) {
@@ -106,17 +106,21 @@ footer{height:12em;background:#333;color:#FFF;padding:.5em;margin:0 0 4em 0; tex
 
 /* Print styles-------------------------------------------------------------------------------*/
 @media print {
-	@page{margin:0 }
+	@page{margin:0;}
 	@page :first{margin:.5cm 0 0 0;}
+	
 	body{ margin: 0; padding: 0; }
 	a:after {content: " [" attr(href) "] ";}
 	main{width:100%; margin:0; box-shadow:none}
+	
 	header{margin:0;padding:0;color:#000;opacity:1;border-bottom:5px solid #dfe5e6;background: none;}
 	header > section > aside > span{display:none;}
 	header > section > aside > h1{float:none;clear:both;display:block;width:auto;margin:0;background:none;color:#333;}
+	
 	.timelineCont ul li {page-break-inside: avoid;}
 	.timelineCont ul li:hover:before{background:#d4d4d4;}
 	.timelineCont ul li:hover span{color:#333;}
-	footer{border-top:5px solid #dfe5e6;background:none;margin:0;padding:1cm 2cm 2cm;text-align:center;font-style:italic;}
+	
+	footer{border-top:5px solid #dfe5e6;background:none;margin:0;padding:1cm 2cm 2cm;font-style:italic;}
 	footer:after {color:#dfe5e6;font-size:.8em;content:"Contact me at email@emaildomain.com for any clarification or further details";}
 }
