@@ -122,5 +122,5 @@ footer{height:12em;background:#333;color:#FFF;padding:.5em;margin:0 0 4em 0;text
 	.timelineCont ul li:hover span{color:#333;}
 	
 	footer{border-top:5px solid #dfe5e6;background:none;margin:0;padding:1cm 2cm 2cm;font-style:italic;}
-	footer:after {color:#dfe5e6;font-size:.8em;content:"Contact me at email@emaildomain.com for any clarification or further details";}
+	footer:after {color:#dfe5e6;font-size:.8em; margin-top:.8em; display:block; content:"Contact me at email@emaildomain.com for any clarification or further details";}
 }
