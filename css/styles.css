@@ -117,7 +117,6 @@ footer{height:12em;background:#333;color:#FFF;padding:.5em;margin:0 0 4em 0; tex
 	.timelineCont ul li {page-break-inside: avoid;}
 	.timelineCont ul li:hover:before{background:#d4d4d4;}
 	.timelineCont ul li:hover span{color:#333;}
-	footer{border-top:5px solid #dfe5e6;background:none;color:#dfe5e6;margin:0;padding:1cm 2cm 2cm 2cm;text-align:center;font-style:italic;}
-	
-	footer:after {content:"Please let me know for any clarification or further details!";}
+	footer{border-top:5px solid #dfe5e6;background:none;margin:0;padding:1cm 2cm 2cm;text-align:center;font-style:italic;}
+	footer:after {color:#dfe5e6;font-size:.8em;content:"Contact me at email@emaildomain.com for any clarification or further details";}
 }
