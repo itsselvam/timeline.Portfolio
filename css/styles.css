@@ -42,7 +42,7 @@ header > section > aside > h1 > section{margin:.8em 0 0;font-size:.35em;font-fam
 
 .timelineCont ul{border-left:5px solid #dfe5e6;margin:0 0 0 8em;}
 .timelineCont ul li{margin:.8em 4em .8em .8em;padding:1em;background:#FFF;border-radius:5px;min-height:35px;}
-.timelineCont ul li:before{content:'';height:15px;width:15px;border-radius:50%;background:#d4d4d4;border:2px solid #FFF;position:absolute;margin-left: -5.75em;box-shadow: 0 0 3px #fff;}
+.timelineCont ul li:before{content:'';height:15px;width:15px;border-radius:50%;background:#d4d4d4;border:2px solid #FFF;position:absolute;margin-left: -5.7em;box-shadow: 0 0 3px #fff;}
 .timelineCont ul li:hover{}
 .timelineCont ul li:hover:before{background:#4264d2;}
 
@@ -57,7 +57,7 @@ header > section > aside > h1 > section{margin:.8em 0 0;font-size:.35em;font-fam
 .timelineCont ul li:hover span{color:#4264d2;}
 
 .timelineCont ul li ul{clear:both;margin:1em 0 0;padding:0;border:none;}
-.timelineCont ul li ul li, .timelineCont ul li ul li:first-child, .timelineCont ul li ul li:last-child{list-style:disc;margin:.1em 0 .1em 3em;padding:0;min-height:auto; }
+.timelineCont ul li ul li, .timelineCont ul li ul li:first-child, .timelineCont ul li ul li:last-child{list-style:disc;margin:.1em 0 .1em 3em;padding:0;min-height:auto;}
 .timelineCont ul li ul li:before{clear:both;margin:0;padding:0;display:none;}
 
 footer{height:12em;background:#333;color:#FFF;padding:.5em;margin:0 0 4em 0;text-align:center;}
