@@ -47,7 +47,7 @@ header > section > aside > h1 > section{margin:.8em 0 0;font-size:.35em;font-fam
 .timelineCont ul li:hover:before{background:#4264d2;}
 
 .timelineCont ul li:first-child:before{visibility:hidden;display:none;}
-.timelineCont ul li:first-child{margin:0em 4em .7em .7em ;background:transparent;padding:0 1em 1em 1em;border:none;}
+.timelineCont ul li:first-child{margin:0em 4em .7em .7em ;background:transparent;padding:0 1em 1em 1em;border:none;min-height:auto;}
 
 .timelineCont ul li:last-child:before{visibility:hidden;display:none;}
 .timelineCont ul li:last-child{margin:.7em 4em 0em .7em;background:transparent;padding:1em 1em 0 1em;border:none;}
