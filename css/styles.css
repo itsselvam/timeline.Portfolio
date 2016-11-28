@@ -47,7 +47,7 @@ header > section > aside > h1 > section{margin:.8em 0 0;font-size:.35em;font-fam
 .timelineCont ul li:hover:before{background:#4264d2;}
 
 .timelineCont ul li:first-child:before{visibility:hidden;display:none;}
-.timelineCont ul li:first-child{margin:0em 4em .7em .7em ;background:transparent;padding:1em;border:none;min-height:auto;}
+.timelineCont ul li:first-child{margin:0em 4em .7em .7em ;background:transparent;padding:2.5em 1em;border:none;min-height:auto;}
 
 .timelineCont ul li h3{ font-size: 1.5em; margin-bottom: .5em;}
 
@@ -102,27 +102,25 @@ footer{height:12em;background:#333;color:#FFF;padding:.5em;margin:0 0 4em 0;text
 	.timelineCont ul li:first-child{margin:0em 1em 1.4em .8em;}
 } 
 
-@media screen and (max-width: 320px) {
-
-}
+@media screen and (max-width: 320px) {}
 
 /* Print styles-------------------------------------------------------------------------------*/
 @media print {
-	@page{margin:0;}
+	@page{margin:.8cm ;}
 	@page :first{margin:.5cm 0 0 0;}
 	
-	body{margin:0;padding:0;}
+	body{margin:0;padding:0;background:none;}
 	a:after {content: " [" attr(href) "] ";}
-	main{width:100%;margin:0;box-shadow:none;}
+	main{width:100%;margin:0;box-shadow:none;background:none;}
 	
 	header{margin:0;padding:0;color:#000;opacity:1;border-bottom:5px solid #dfe5e6;background:none;}
 	header > section > aside > span{display:none;}
 	header > section > aside > h1{float:none;clear:both;display:block;width:auto;margin:0;background:none;color:#333;}
 	
-	.timelineCont ul li{page-break-inside:avoid;}
+	.timelineCont ul li{page-break-inside:avoid;background:none;}
 	.timelineCont ul li:hover:before{background:#d4d4d4;}
 	.timelineCont ul li:hover span{color:#333;}
 	
-	footer{border-top:5px solid #dfe5e6;background:none;margin:0;padding:1cm 2cm 2cm;font-style:italic;}
-	footer:after{color:#dfe5e6;font-size:.8em;margin-top:.8em;display:block;content:"Contact me at email@emaildomain.com for any clarification or further details";}
+	footer{border-top:5px solid #dfe5e6;background:none;margin:0;padding:1cm 2cm 2cm;color:#333;}
+	footer:after{color:#666;font-size:.8em;font-style:italic;margin-top:.8em;display:block;content:"Contact me at email@emaildomain.com for any clarification or further details";}
 }
