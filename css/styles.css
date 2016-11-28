@@ -42,12 +42,14 @@ header > section > aside > h1 > section{margin:.8em 0 0;font-size:.35em;font-fam
 
 .timelineCont ul{border-left:5px solid #dfe5e6;margin:0 0 0 8em;}
 .timelineCont ul li{margin:.8em 4em .8em .8em;padding:1em;background:#FFF;border-radius:5px;min-height:35px;}
-.timelineCont ul li:before{content:'';height:15px;width:15px;border-radius:50%;background:#d4d4d4;border:2px solid #FFF;position:absolute;margin-left: -5.7em;box-shadow: 0 0 3px #fff;}
+.timelineCont ul li:before{content:'';height:15px;width:15px;border-radius:50%;background:#d4d4d4;border:2px solid #FFF;position:absolute;margin-left: -5.65em;box-shadow: 0 0 3px #fff;}
 .timelineCont ul li:hover{}
 .timelineCont ul li:hover:before{background:#4264d2;}
 
 .timelineCont ul li:first-child:before{visibility:hidden;display:none;}
-.timelineCont ul li:first-child{margin:0em 4em .7em .7em ;background:transparent;padding:0 1em 1em 1em;border:none;min-height:auto;}
+.timelineCont ul li:first-child{margin:0em 4em .7em .7em ;background:transparent;padding:1em;border:none;min-height:auto;}
+
+.timelineCont ul li h3{ font-size: 1.5em; margin-bottom: .5em;}
 
 .timelineCont ul li:last-child:before{visibility:hidden;display:none;}
 .timelineCont ul li:last-child{margin:.7em 4em 0em .7em;background:transparent;padding:1em 1em 0 1em;border:none;min-height:auto;}
@@ -97,6 +99,7 @@ footer{height:12em;background:#333;color:#FFF;padding:.5em;margin:0 0 4em 0;text
 	.timelineCont ul li span{margin-left:0em;display:block;position:relative;padding-bottom:.4em;font-size:1.2em;text-align:left;width:auto;}
 	.timelineCont ul li span b{display:inline; visibility:visible;}
 	.timelineCont ul li:before{margin-left:-2.7em;}	
+	.timelineCont ul li:first-child{margin:0em 1em 1.4em .8em;}
 } 
 
 @media screen and (max-width: 320px) {
