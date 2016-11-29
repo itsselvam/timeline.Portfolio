@@ -34,7 +34,7 @@ main{width:90%;background:#f4f4f4;margin:20px auto;box-shadow:0 2px 4px 0 rgba(0
 
 header{padding:6em 4em;background:url(../images/bgimg.jpg);background-size:cover;background-repeat:no-repeat;}
 header > section {}
-header > section > aside > span{background:url(../images/profilepic.jpg);background-size:cover;width:12em;height:12em;border-radius:50%;display:inline-block;} 
+header > section > aside > span{background:url(../images/profilepic.jpg);background-size:cover;width:12em;height:12em;border-radius:50%;display:inline-block;} /*profilepic.jpg can be replaced with your profile images OR any images hosted online e.g GRAVATAR (Sample image URL : https://s.gravatar.com/avatar/88b98081dc4f42c05a799b59c165306f?s=128 )*/
 header > section > aside{}
 header > section > aside > h1{float:right;display:inline;width:75%;font-family:'Merriweather',serif;font-size:3.1em;color:#FFF;background:rgba(0, 0, 0, 0.3);padding:.5em;text-shadow:1px 0px #000;}
 header > section > aside > h1 > span{font-size:.35em;display:block;font-family:'Open Sans',sans-serif;text-transform:uppercase;}
