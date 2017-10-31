@@ -110,7 +110,7 @@ footer div{color:#666;}
 	@page{margin:0 0 0 0;}
 	@page :first{margin:.5cm 0 0 0;}
 	
-	body{margin:0;padding:0;background:none;}
+	body{margin:0;padding:0;background:none;-webkit-print-color-adjust: exact;color-adjust: exact;}
 	a:after {content: " [" attr(href) "] ";}
 	main{width:100%;margin:0;box-shadow:none;background:none;}
 	
