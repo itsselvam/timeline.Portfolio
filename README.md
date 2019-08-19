@@ -7,6 +7,7 @@ https://itsselvam.github.io/timeline.Portfolio/
 
 
 **How to use?**
+
 You can update the related information and create a PDF version by simply printing (ctrl+p) or you print  
 ```
 * Fork or download source files to your local.
@@ -19,7 +20,3 @@ You can update the related information and create a PDF version by simply printi
 * Simply click print option in your browser or (CTRL+P)
 OR
 * Use any of the web to print(pdf) converter. For example https://convertio.co/
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNDE3Nzg0MiwxMTAzNjQ2NjE1XX0=
--->
