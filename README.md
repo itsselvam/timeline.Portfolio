@@ -1,6 +1,5 @@
 # Responsive portfolio and CV in Timeline layout
 
-Overview 
 Simple HTML/CSS based ready to use curriculum vitae template to jump start online curriculum vitae creation. Every wandered to create a simple looking website/portfolio and CV.  This template is compatible in both web and print.   
 
 Preview at
@@ -22,5 +21,5 @@ OR
 * Use any of the web to print(pdf) converter. For example https://convertio.co/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMzMwMjMxNywxMTAzNjQ2NjE1XX0=
+eyJoaXN0b3J5IjpbMTIyNDE3Nzg0MiwxMTAzNjQ2NjE1XX0=
 -->
