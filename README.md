@@ -1,5 +1,7 @@
 # Responsive portfolio and CV in Timeline layout
-Objective 
+
+Overview 
+Simple HTML/CSS based ready to use curriculum vitae templa
 Every wondered to create a similar looking website/portfolio and CV. Here is the basic template you can use. 
 
 Preview at
@@ -21,5 +23,5 @@ You can update the related information and create a PDF version by simply printi
 OR
 * Use any of the web to print(pdf) converter. For example https://convertio.co/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDgwMTc1NTldfQ==
+eyJoaXN0b3J5IjpbNzQyMjAwODU1XX0=
 -->
