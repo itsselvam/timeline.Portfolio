@@ -1,4 +1,5 @@
 # Responsive portfolio and CV in Timeline layout
+Objective 
 Every wondered to create a similar looking website/portfolio and CV. Here is the basic template you can use. 
 
 Preview at
@@ -14,11 +15,11 @@ You can update the related information and create a PDF version by simply printi
 * Host it in your server/hosting space
 ```
 
-##To create a print version 
+**To create a print version** 
 ```
-* Simply click print option in your browser or (ctrl+p)
+* Simply click print option in your browser or (CTRL+P)
 OR
-* Use any of the online web to print(pdf) converter. For example https://convertio.co/
+* Use any of the web to print(pdf) converter. For example https://convertio.co/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTc1NTA0NjldfQ==
+eyJoaXN0b3J5IjpbLTE0NDgwMTc1NTldfQ==
 -->
